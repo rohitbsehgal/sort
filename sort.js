@@ -1,3 +1,7 @@
+function doAll(){
+  var x = document.getElementById("inputparagraph").value;
+  sort(x);
+}
 function sort(paragraph){
   var array = paragraph.split(" ");
   var sentenceArray = paragraph.split(".");
